@@ -1,0 +1,490 @@
+* .completed {
+  text-decoration: line-through;
+  color: gray;
+  border: 1px solid gray;
+}
+
+body { 
+  background: rgb(0,0,0);
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  background-color: sandybrown;
+
+}
+
+#todo-container {
+  background: rgb(41, 33, 33);
+  width: 400px;
+  margin: 0 auto;
+  border: 2px solid #0033ff;
+  padding: 20px;
+  color: white;
+  border-radius: 15px;
+}
+
+
+#header {
+  margin: 5px;
+  font-size: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px; 
+}
+
+#input-box {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 5px;
+  font-size: 20px;
+
+}
+
+#input-button {
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.4s;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2e60ea;
+}
+
+#input-button:hover {
+  background-color: #9eb7fd; 
+  
+}
+
+
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  text-align:left;
+
+}
+
+li {
+border: 1px solid white;
+border-radius: 5px;
+margin-bottom: 10px;
+padding: 10px;
+margin-top: 10px;
+color: #000;
+}
+
+.edit-btn, .delete-btn {
+  float: right;
+  color:black;
+  cursor: pointer;
+  margin: 3px 5px;
+  border: none;
+  padding: 3px 5px;
+  background: none;
+  
+} 
+
+.completed {
+  text-decoration: line-through;
+  color:black;
+  border: 1px solid gray;
+}
+
+
+.profile{
+  font-size: 90px;
+  border: #000;
+  border-radius: 4px;
+}
+.image{
+  padding-left: 380px;
+  padding-top: 150px;
+}
+.profile-text{
+  padding-left: 50px;
+font-size: 10px;
+
+}
+.Profile-detail{
+  display: flex;
+  
+}
+.Details{
+  font-size: 30px;
+  padding-top: 100px;
+}
+
+.body-class{
+  border: black;
+  background-color:sandybrown;
+  border-radius: 5px;
+  display: flex;
+  width: 50px;
+}
+.footer{
+  background-color: #bbb;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+}
+
+.goal{
+  font-size: 40px;
+  padding-left: 50px;
+}
+/* .sign-up{
+  background-color: sandybrown;
+  border:solid 20px #ccc;
+  width: 500px;
+  padding-left: 50;
+ 
+
+
+} */
+ 
+.login{
+  border:solid 20px #ccc;
+  background-color: sandybrown;
+  width: 500px;
+
+}
+.login-page{
+  padding-left: 650px;
+  margin-bottom: 600px;
+  padding-top: 200px;
+}
+/* .sign-page{
+  padding-left: 500px;
+} */
+
+.button{
+  width: 100px;
+  padding-left: 800px;
+
+}
+.goal-setting{
+  background-color: sandybrown;
+  color: #000;
+  
+  margin: 0 auto;
+}
+.navbar-body{
+  display: flex;
+  justify-content: space-between;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  background-color:#bbb;
+  color:white;
+ 
+}
+ .landing-page{
+  font-size: 80px;
+
+ }
+.text{
+  font-size: 30px;
+}
+.progress{
+  font-size: 20px;
+}
+.container{
+  background-color:sandybrown;
+  border: #000 3px;
+  border-radius: 20px;
+}
+
+
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+
+ 
+
+
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+
+
+form {
+    border: 3px solid #f1f1f1;
+    
+  }
+  
+ 
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+
+
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+ 
+  
+  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 50px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+  
+
+    
+    
+    /* Remove margins and padding from the list */
+    ul {
+      margin: 0;
+      padding: 0;
+    }
+    
+    /* Style the list items */
+    ul li {
+      cursor: pointer;
+      position: relative;
+      padding: 12px 8px 12px 40px;
+      background: #eee;
+      font-size: 18px;
+      transition: 0.2s;
+    
+      /* make the list items unselectable */
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+    
+    /* Set all odd list items to a different color (zebra-stripes) */
+    ul li:nth-child(odd) {
+      background: #f9f9f9;
+    }
+    
+    /* Darker background-color on hover */
+    ul li:hover {
+      background: #ddd;
+    }
+    
+    /* When clicked on, add a background color and strike out text */
+    ul li.checked {
+      background: #888;
+      color: #fff;
+      text-decoration: line-through;
+    }
+    
+    /* Add a "checked" mark when clicked on */
+    ul li.checked::before {
+      content: '';
+      position: absolute;
+      border-color: #fff;
+      border-style: solid;
+      border-width: 0 2px 2px 0;
+      top: 10px;
+      left: 16px;
+      transform: rotate(45deg);
+      height: 15px;
+      width: 7px;
+    }
+    
+    /* Style the close button */
+    .close {
+      position: absolute;
+      right: 0;
+      top: 0;
+      padding: 12px 16px 12px 16px;
+    }
+    
+    .close:hover {
+      background-color: #888;
+      color: white;
+    }
+    
+    /* Style the header */
+    .header {
+      background-color: #888;
+      padding: 30px 40px;
+      color: white;
+      text-align: center;
+    }
+    
+    /* Clear floats after the header */
+    .header:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    /* Style the input */
+    input {
+      margin: 0;
+      border: none;
+      border-radius: 0;
+      width: 75%;
+      padding: 10px;
+      float: left;
+      font-size: 16px;
+    }
+    
+    /* Style the "Add" button */
+    .addBtn {
+      padding: 10px;
+      width: 25%;
+      background: #d9d9d9;
+      color: #555;
+      float: left;
+      text-align: center;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+      border-radius: 0;
+    }
+    
+    .addBtn:hover {
+      background-color: #bbb;
+    }
+    
+  
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+    .button{
+      padding-top: 20px;
+    }
+  }
+
+
+
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 414px) {
+  .landing-page{
+    font-size: 80px;
+  
+}
+}
+/* //landing page */
+@media screen and (max-width: 800px) {
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color:#bbb;
+    color:white;
+  }
+   .landing-page{
+    font-size: 80px;
+  
+   }
+  .text{
+    font-size: 30px;
+  }
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }.title {
+    color: grey;
+    font-size: 18px;
+  }
+}
