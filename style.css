@@ -3,6 +3,16 @@
   color: gray;
   border: 1px solid gray;
 }
+.nyj-button{
+  background-color: #0033ff;
+  width: 90px;
+  height: 60px;
+  border-radius: 20px;
+
+}
+.summary{
+  font: 24px;
+}
 
 body { 
   background: rgb(0,0,0);
