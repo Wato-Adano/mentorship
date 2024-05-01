@@ -5,9 +5,13 @@
 }
 .nyj-button{
   background-color: #0033ff;
-  width: 90px;
+  width: 100px;
   height: 60px;
   border-radius: 20px;
+  margin-right: 310px;
+  display: flex;
+  width: 60px;
+ 
 
 }
 .summary{
@@ -439,7 +443,15 @@ form {
     .addBtn:hover {
       background-color: #bbb;
     }
-    
+    .text summary{
+      text-align: center;
+    }
+    .ambiguity{
+      font: 20px;
+    }
+    .race{
+      font: 20px;
+    }
   
   @media screen and (max-width: 780px) {
     span.psw {
